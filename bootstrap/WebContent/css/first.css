@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.428571429;
+	color:#333333;
+	background-color: #ffffff;
+}
+
+a:HOVER,
+a:FOCUS {
+	color:#2a6496;
+	text-decoration: underline;
+}
+
+a:FOCUS {
+	outline: thin dotted #333;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset:-2px;
+}
+
+.container:before,
+.container:after{
+	display:table;
+	content:" ";
+	clear: both;
+}
+
+/* @MEDIA (min-width:768px) { */
+/* 	.container{ */
+/* 		width:750px; */
+/* 	} */
+/* } */
+
+/* 超小设备 （手机、小于768px)*/
+/* Bootstrap 中默认情况 下没有媒体查询*/
+
+/* 小型设备(平板电脑、768px起)*/
+@MEDIA (min-width:@screen-sm-min) and (max-width:@screen-sm-max) {
+	
+}
+
+/* 中型设备(台式电脑,992px起)*/
+@MEDIA (min-width:@screen-md-min) and (max-width:@screen-md-max) {
+	
+}
+
+/* 大型设备(大台式电脑,1200px起)*/
+@MEDIA (min-width:@screen-lg-min) {
+	
+}
+
+
